@@ -14,8 +14,7 @@ alias ls="ls -G"
 # Aliases =====================
 
 # Quick servers
-alias serve="echo \"\n    Serving on port 8000\n\";ruby -run -e httpd -- -p 8000 ."
-alias phpserve="echo \"\n    Serving on port 8000\n\";php -S 127.0.0.1:80 -t ."
+alias pyserve="python3 -m http.server"
 
 alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
 
