@@ -17,6 +17,3 @@ source .dotfiles/aliases.sh
 
 # Python
 source .dotfiles/python.sh
-
-# Ruby
-source .dotfiles/ruby.sh
