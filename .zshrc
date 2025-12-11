@@ -1,2 +1,1 @@
-# Customize prompt
-source .dotfiles/prompt.sh
+source .dotfiles/.zshrc
