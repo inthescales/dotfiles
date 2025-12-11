@@ -1,19 +1,8 @@
-# Variables ===================
+# Terminal Configuration
 
-PATH=$PATH:/Users/robin/bin
-
-# Editor preferences
-EDITOR=emacs
-VISUAL=$EDITOR
-
-# Basic colors
-CLICOLOR=1
-export LSCOLORS=fxbxxxxxexxxxxexexfxfx
-alias ls="ls -G"
-
+source .dotfiles/variables.sh
 source .dotfiles/aliases.sh
 
-# Program configuration ===========
+# Program Setup
 
-# Python
 source .dotfiles/python.sh
