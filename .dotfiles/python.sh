@@ -1,5 +1,9 @@
 #!/usr/bin/sh
 
-# Setting PATH for Python 3.8
-# The original version is saved in .zprofile.pysave
+# Add Python to path
 export PATH="/Library/Frameworks/Python.framework/Versions/3.9/bin:${PATH}"
+
+# Set up pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
