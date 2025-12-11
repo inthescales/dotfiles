@@ -11,12 +11,7 @@ CLICOLOR=1
 export LSCOLORS=fxbxxxxxexxxxxexexfxfx
 alias ls="ls -G"
 
-# Aliases =====================
-
-# Quick servers
-alias pyserve="python3 -m http.server"
-
-alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+source .dotfiles/aliases.sh
 
 # Program configuration ===========
 
